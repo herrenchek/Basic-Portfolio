@@ -1,0 +1,46 @@
+body {
+    background-image: url("../images/dust_scratches.png");
+    background-color: #ccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #fff;
+    background-color: #4aaaa5;
+    padding: 15px;
+    border-bottom: solid 3px #ddd;
+    float: left;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+.main {
+    width: 960px;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 20px 10px 20px;
+    color: #777;
+    line-height: 1.8;
+}
+
+img {
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin: 10px 15px 15px 0px;
+}
+
+footer {
+    background-color: #666;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    color: #ccc;
+}
