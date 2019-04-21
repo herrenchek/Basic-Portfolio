@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,39 +9,44 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>My Portfolio</title>
 </head>
+
 <body>
-    <div id="header">
     <header>
-        <h1>Giselle Herr</h1>
+        <section id="nav">
+            <h1><strong>Giselle Herr</strong></h1>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li>|</li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li>|</li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </section>
     </header>
-        
-    <nav>
-        <h2><a href="index.html">About</a></h2>
-        <h2><a href="portfolio.html">Portfolio</a></h2>
-        <h2><a href="contact.html">Contact</a></h2>
-    </nav>
-    </div>
 
     <form class="main">
-        <h2>Contact</h2>
-        <hr/>
-        <div>
-            <label for="name">Name</label>
-            <input type="text" id="name" placeholder="Your Name">
+        <div id="container">
+            <h2>Contact</h2>
+            <hr/>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="example@gmail.com">
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message"></textarea>
+            </div>
+            <button type="submit">Submit</button>
         </div>
-        <div>
-            <label for="email">Email</label>
-            <input type="text" id="email" placeholder="example@gmail.com">
-        </div>
-        <div>
-            <label for="message">Message</label>
-            <textarea id="message"></textarea>
-        </div>
-        <button type="submit">Submit</button>
     </form>
-<!--Footer-->
+
     <footer>
         <p>Copyright &#169; Giselle Malenchek 2019</p>
     </footer>
 </body>
+
 </html>
