@@ -76,13 +76,13 @@ h2 {
     overflow: hidden;
 }
 
+.main p {
+    margin-top: 0;
+}
+
 #profile {
     float: left;
     margin: 10px 15px 15px 0px;
-}
-
-.main p {
-    margin-top: 0;
 }
 
 /* Footer */
@@ -142,7 +142,6 @@ button:hover {
 
 .portrait {
     float: left;
-    position: relative;
     margin: 20px 40px 20px 0px;
 }
 
